@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<TITLE> 세이렌 작전 5성작 지도 </TITLE>
+<script language="JavaScript">
+<!--
+
+//마우스 따라다니는 메세지판
+
+function msgposit(){
+message.style.posLeft = event.x + 2 + document.body.scrollLeft
+message.style.posTop = event.y - 2 + document.body.scrollTop
+}
+
+function msgset(str,str2){
+var text
+text ='<table border="0" cellpadding="6" cellspacing="0" bgcolor="#FDFFF2" style="font-size:9pt; border-width:1; border-color:black; border-style:solid;">'
+text += '<tr><td><p><b>' + str + '<br><br></b>' + str2 + '</td></tr></table>'
+message.innerHTML=text
+}
+
+function msghide(){
+message.innerHTML=''
+}
+
+//-->
+</script>
+</HEAD>
+
+<BODY>
+
+<!-- 메시창모양 -->
+<div id="message" style="position:absolute; left:17px; top:355; width:200px; height:62px; z-index:1; border-width:1px; border-style:none;">
+<p> </p>
+</div>
+<!-- 이미지 -->
+<p><img src="https://ac2.namu.la/20210129/b0989e7d87e1e4c52d3b256ebaa0a4b1e2094e2893b6c8094ac651d5fa001f70.jpg?type=orig" width="1300" height="853" border="0" usemap="#ImageMap1">
+
+<!-- 이미지맵 링크 -->
+<map name="ImageMap1">
+<area shape="rect" coords="7, 677, 87, 687" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('11 / 카리브해 A / 침식 6','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 19<br>3. 강화형 함대를 격파한다 15<br>4. 정보수집장치를 사용한다 2<br>5. 에너지 공급장치를 격납한다 3')">
+<area shape="rect" coords="62, 746, 143, 761" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('12 / 카리브해 B / 침식 5','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 19<br>3. 강화형 함대를 격파한다 12<br>4. 오프냥을 파견보낸다 16<br>5. 미지의 상인(아카시) 만나기 2')">
+<area shape="rect" coords="82, 813, 168, 830" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('13 / 카리브해 C / 침식 5','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 19<br>3. 전투에서 승리한다 150<br>4. 기록을 회수한다 1<br>5. 미지의 상인(아카시) 만나기 2')">
+<area shape="rect" coords="221, 800, 318, 815" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('14 / 카리브해 D / 침식 4','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 48<br>3. 자원 포인트를 회수한다 48<br>4. 기록을 회수한다 1<br>5. 주사장치를 사용한다 6')">
+
+<area shape="rect" coords="287, 474, 336, 517" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('21 / NA해역 남서 A / 침식 2','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 16<br>3. 강화형 함대를 격파한다 3<br>4. 기록을 회수한다 1<br>5. 주사장치를 사용한다 4')">
+<area shape="rect" coords="219, 578, 270, 629" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('22 / NA해역 남서 B / 침식 1','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 16<br>3. 이상기후구역을 조사한다 7<br>4. 기록을 회수한다 1<br>5. 미지의 상인(아카시) 만나기 2')">
+<area shape="rect" coords="348, 529, 422, 557" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('23 / NA해역 남서 C / 침식 2','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 3<br>3. 자원 포인트를 회수한다 18<br>4. 기록을 회수한다 1<br>5. 기상조작장치를 파괴한다 2')">
+<area shape="rect" coords="173, 674, 225, 726" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('24 / NA해역 남서 D / 침식 2','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 3<br>3. 강화형 함대를 격파한다 3<br>4. 기록을 회수한다 1<br>5. 스위치를 기동한다 1')">
+<area shape="rect" coords="413, 565, 459, 611" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('25 / NA해역 남서 E / 침식 3','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 5<br>3. 전투에서 승리한다 60<br>4. 기록을 회수한다 1<br>5. 오프냥을 파견보낸다 10')">
+
+<area shape="rect" coords="301, 626, 366, 659" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('31 / 남서해령 A / 침식 2','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 3<br>3. 전투에서 승리한다 36<br>4. 기록을 회수한다 1<br>5. 에너지 공급장치를 격납한다 1')">
+<area shape="rect" coords="386, 660, 476, 676" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('32 / 남서해령 B / 침식 3','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 18<br>3. 강화형 함대를 격파한다 6<br>4. 기록을 회수한다 1<br>5. 정보수집장치를 사용한다 2')">
+<area shape="rect" coords="311, 744, 376, 776" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('33 / 남서해령 C / 침식 3','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 18<br>3. 전투에서 승리한다 60<br>4. 기록을 회수한다 1<br>5. 주사장치를 사용한다 6')">
+<area shape="rect" coords="410, 790, 473, 827h" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('34 / 남서해령 D / 침식 3','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 18<br>3. 이상기후구역을 조사한다 10<br>4. 기록을 회수한다 1<br>5. 기상조작장치를 파괴한다 2')">
+
+<area shape="rect" coords="367, 315, 426, 345" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('41 / 서대륙붕 A / 침식 3','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 4<br>3. 전투에서 승리한다 60<br>4. 기록을 회수한다 1<br>5. 스위치를 기동한다 1')">
+<area shape="rect" coords="279, 399, 367, 417" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('42 / 서대륙붕 B / 침식 4','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 48<br>3. 강화형 함대를 격파한다 8<br>4. 기록을 회수한다 1<br>5. 기상조작장치를 파괴한다 2')">
+<area shape="rect" coords="437, 362, 493, 392" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('43 / 서대륙붕 C / 침식 2','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 8<br>3. 강화형 함대를 격파한다 3<br>4. 기록을 회수한다 1<br>5. 강화형 함대의 매복을 격퇴 1')">
+<area shape="rect" coords="112, 601, 200, 618h" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('44 / 서대륙붕 D / 침식 1','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 16<br>3. 자원 포인트를 회수한다 18<br>4. 기록을 회수한다 1<br>5. 정보수집장치를 사용한다 2')">
+
+<area shape="rect" coords="486, 680, 571, 695" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('51 / 남동해령 A / 침식 4','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 10<br>3. 자원 포인트를 회수한다 48<br>4. 기록을 회수한다 1<br>5. 스위치를 기동한다 2')">
+<area shape="rect" coords="591, 696, 657, 729" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('52 / 남동해령 B / 침식 4','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 10<br>3. 강화형 함대를 격파한다 8<br>4. 기록을 회수한다 1<br>5. 에너지 공급장치를 격납한다 2')">
+<area shape="rect" coords="484, 787, 574, 806" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('53 / 남동해령 C / 침식 4','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 10<br>3. 전투에서 승리한다 96<br>4. 기록을 회수한다 1<br>5. 강화형 함대의 매복을 격퇴 2')">
+<area shape="rect" coords="601, 793, 690, 809" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('54 / 남동해령 D / 침식 4','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 24<br>3. 강화형 함대를 격파한다 8<br>4. 기록을 회수한다 1<br>5. 강화형 함대가 떨어트린 자원을 회수한다 4')">
+
+<area shape="rect" coords="671, 573, 715, 619" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('61 / NA해역 남동 A / 침식 4','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 24<br>3. 전투에서 승리한다 96<br>4. 기록을 회수한다 1<br>5. 오프냥을 파견보낸다 10')">
+<area shape="rect" coords="793, 555, 876, 585" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('62 / NA해역 남동 B / 침식 3','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 4<br>3. 이상기후구역을 조사한다 10<br>4. 기록을 회수한다 1<br>5. 에너지 공급장치를 격납한다 1')">
+<area shape="rect" coords="674, 690, 722, 737" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('63 / NA해역 남동 C / 침식 4','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 24<br>3. 이상기후구역을 조사한다 19<br>4. 기록을 회수한다 1<br>5. 미지의 상인(아카시) 만나기 2')">
+<area shape="rect" coords="719, 802, 767, 847" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('64 / NA해역 남동 D / 침식 4','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 6<br>3. 전투에서 승리한다 96<br>4. 기록을 회수한다 1<br>5. 정보수집장치를 사용한다 2')">
+<area shape="rect" coords="723, 580, 768, 628" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('65 / NA해역 남동 E / 침식 3','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 4<br>3. 자원 포인트를 회수한다 36<br>4. 기록을 회수한다 1<br>5. 강화형 함대의 매복을 격퇴 1')">
+<area shape="rect" coords="741, 671, 788, 722h" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('66 / NA해역 남동 F / 침식 3','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 30<br>3. 이상기후구역을 조사한다 10<br>4. 기록을 회수한다 1<br>5. 강화형 함대가 떨어트린 자원을 회수한다 3')">
+
+<area shape="rect" coords="996, 489, 1075, 506" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('71 / 지중해 A / 침식 5','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 40<br>3. 강화형 함대를 격파한다 12<br>4. 기록을 회수한다 1<br>5. 정보수집장치를 사용한다 2')">
+<area shape="rect" coords="1110, 438, 1164, 474" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('72 / 지중해 B / 침식 6','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 19<br>3. 전투에서 승리한다 180<br>4. 주사장치를 사용한다 5<br>5. 강화형 함대가 떨어트린 자원을 회수한다 8')">
+<area shape="rect" coords="1123, 565, 1201, 581" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('73 / 지중해 C / 침식 5','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 40<br>3. 전투에서 승리한다 150<br>4. 미지의 상인(아카시) 만나기 2<br>5. 주사장치를 사용한다 8')">
+
+<area shape="rect" coords="473, 303, 520, 348" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('81 / NA해역 서 A / 침식 2','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 8<br>3. 전투에서 승리한다 36<br>4. 기록을 회수한다 1<br>5. 강화형 함대가 떨어트린 자원을 회수한다 2')">
+<area shape="rect" coords="541, 324, 589, 371" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('82 / NA해역 서 B / 침식 4','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 6<br>3. 이상기후구역을 조사한다 19<br>4. 기록을 회수한다 1<br>5. 주사장치를 사용한다 6')">
+<area shape="rect" coords="450, 431, 495, 477" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('83 / NA해역 서 C / 침식 2','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 8<br>3. 이상기후구역을 조사한다 7<br>4. 기록을 회수한다 1<br>5. 미지의 상인(아카시) 만나기 2')">
+<area shape="rect" coords="469, 221, 518, 266" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('84 / NA해역 서 D / 침식 2','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 2<br>3. 전투에서 승리한다 36<br>4. 기록을 회수한다 1<br>5. 정보수집장치를 사용한다 2')">
+<area shape="rect" coords="518, 445, 569, 493h" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('85 / NA해역 서 E / 침식 4','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 6<br>3. 자원 포인트를 회수한다 48<br>4. 기록을 회수한다 1<br>5. 기상조작장치를 파괴한다 2')">
+
+<area shape="rect" coords="530, 234, 578, 285" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('91 / NA해역 북서 A / 침식 4','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 48<br>3. 이상기후구역을 조사한다 19<br>4. 기록을 회수한다 1<br>5. 스위치를 기동한다 2')">
+<area shape="rect" coords="521, 117, 571, 162" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('92 / NA해역 북서 B / 침식 2','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 2<br>3. 이상기후구역을 조사한다 7<br>4. 기록을 회수한다 1<br>5. 주사장치를 사용한다 4')">
+<area shape="rect" coords="592, 130, 638, 176" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('93 / NA해역 북서 C / 침식 2','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 2<br>3. 자원 포인트를 회수한다 18<br>4. 기록을 회수한다 1<br>5. 기상조작장치를 파괴한다 2')">
+<area shape="rect" coords="643, 49, 695, 95" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('94 / NA해역 북서 D / 침식 3','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 30<br>3. 자원 포인트를 회수한다 36<br>4. 기록을 회수한다 1<br>5. 오프냥을 파견보낸다 10')">
+<area shape="rect" coords="533, 41, 618, 75" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('95 / NA해역 북서 E / 침식 3','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 30<br>3. 강화형 함대를 격파한다 6<br>4. 기록을 회수한다 1<br>5. 미지의 상인(아카시) 만나기 2')">
+
+<area shape="rect" coords="76, 17, 141, 53" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('101 / 북서항로 A / 침식 5','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 40<br>3. 이상기후구역을 조사한다 36<br>4. 정보수집장치를 사용한다 2<br>5. 스위치를 기동한다 2')">
+<area shape="rect" coords="15, 142, 115, 162" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('102 / 북서항로 B / 침식 5','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 10<br>3. 전투에서 승리한다 150<br>4. 주사장치를 사용한다 5<br>5. 강화형 함대의 매복을 격퇴 2')">
+<area shape="rect" coords="160, 126, 225, 141" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('103 / 북서항로 C / 침식 4','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 48<br>3. 자원 포인트를 회수한다 48<br>4. 기록을 회수한다 1<br>5. 에너지 공급장치를 격납한다 2')">
+<area shape="rect" coords="299, 48, 399, 70" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('104 / 북서항로 D / 침식 4','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 48<br>3. 강화형 함대를 격파한다 8<br>4. 기록을 회수한다 1<br>5. 강화형 함대의 매복을 격퇴 2')">
+<area shape="rect" coords="341, 172, 445, 195" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('105 / 북서항로 E / 침식 3','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 5<br>3. 자원 포인트를 회수한다 36<br>4. 기록을 회수한다 1<br>5. 정보수집장치를 사용한다 2')">
+<area shape="rect" coords="36, 217, 135, 238" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('106 / 북서항로 F / 침식 6','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 40<br>3. 강화형 함대를 격파한다 15<br>4. 기상조작장치를 파괴한다 2<br>5. 미지의 상인(아카시) 만나기 3')">
+
+<area shape="rect" coords="707, 336, 755, 386" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('111 / NA해역 동 A / 침식 3','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 5<br>3. 강화형 함대를 격파한다 6<br>4. 기록을 회수한다 1<br>5. 주사장치를 사용한다 6')">
+<area shape="rect" coords="774, 359, 847, 390" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('112 / NA해역 동 B / 침식 2','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 16<br>3. 이상기후구역을 조사한다 7<br>4. 기록을 회수한다 1<br>5. 스위치를 기동한다 1')">
+<area shape="rect" coords="751, 469, 803, 519" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('113 / NA해역 동 C / 침식 3','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 5<br>3. 전투에서 승리한다 60<br>4. 기록을 회수한다 1<br>5. 기상조작장치를 파괴한다 2')">
+<area shape="rect" coords="816, 410, 870, 460h" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('114 / NA해역 동 D / 침식 3','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 18<br>3. 강화형 함대를 격파한다 6<br>4. 기록을 회수한다 1<br>5. 스위치를 기동한다 1')">
+
+<area shape="rect" coords="1136, 107, 1205, 143" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('121 / 동대륙붕 A / 침식 6 ','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 40<br>3. 전투에서 승리한다 180<br>4. 스위치를 기동한다 2<br>5. 기상조작장치를 파괴한다 3')">
+<area shape="rect" coords="815, 316, 880, 349" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('122 / 동대륙붕 B / 침식 2','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 16<br>3. 자원 포인트를 회수한다 18<br>4. 기록을 회수한다 1<br>5. 에너지 공급장치를 격납한다 1')">
+<area shape="rect" coords="942, 226, 1039, 248" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('123 / 동대륙붕 C / 침식 3','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 18<br>3. 전투에서 승리한다 60<br>4. 기록을 회수한다 1<br>5. 에너지 공급장치를 격납한다 1')">
+<area shape="rect" coords="1127, 228, 1190, 261" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('124 / 동대륙붕 D / 침식 5','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 10<br>3. 이상기후구역을 조사한다 36<br>4. 스위치를 기동한다 2<br>5. 오프냥을 파견보낸다 25')">
+<area shape="rect" coords="882, 364, 944, 397" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('125 / 동대륙붕 E / 침식 3','1. 에리어를 확보한다 1<br>2. 자원 포인트를 회수한다 30<br>3. 이상기후구역을 조사한다 29<br>4. 기록을 회수한다 1<br>5. 강화형 함대의 매복을 격퇴 2')">
+
+<area shape="rect" coords="652, 158, 698, 203" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('131 / NA해역 북동 A / 침식 2','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 16<br>3. 강화형 함대를 격파한다 3<br>4. 기록을 회수한다 1<br>5. 강화형 함대의 매복을 격퇴 1')">
+<area shape="rect" coords="776, 243, 822, 288" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('132 / NA해역 북동 B / 침식 2','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 3<br>3. 자원 포인트를 회수한다 18<br>4. 기록을 회수한다 1<br>5. 강화형 함대가 떨어트린 자원을 회수한다 2')">
+<area shape="rect" coords="602, 238, 653, 288" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('133 / NA해역 북동 C / 침식 3','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 4<br>3. 전투에서 승리한다 60<br>4. 기록을 회수한다 1<br>5. 강화형 함대가 떨어트린 자원을 회수한다 3')">
+<area shape="rect" coords="709, 184, 796, 216" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('134 / NA해역 북동 D / 침식 2','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 3<br>3. 강화형 함대를 격파한다 3<br>4. 기록을 회수한다 1<br>5. 미지의 상인(아카시) 만나기 2')">
+<area shape="rect" coords="696, 259, 739, 312" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('135 / NA해역 북동 E / 침식 3','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 4<br>3. 이상기후구역을 조사한다 10<br>4. 기록을 회수한다 1<br>5. 오프냥을 파견보낸다 10')">
+
+<area shape="rect" coords="702, 95, 766, 126" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('141 / 북동항로 A / 침식 3','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 4<br>3. 자원 포인트를 회수한다 36<br>4. 기록을 회수한다 1<br>5. 미지의 상인(아카시) 만나기 2')">
+<area shape="rect" coords="862, 42, 959, 61" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('142 / 북동항로 B / 침식 4','1. 에리어를 확보한다 1<br>2. 이상기후구역을 조사한다 10<br>3. 자원 포인트를 회수한다 48<br>4. 기록을 회수한다 1<br>5. 강화형 함대가 떨어트린 자원을 회수한다 4')">
+<area shape="rect" coords="807, 143, 875, 167" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('143 / 북동항로 C / 침식 3','1. 에리어를 확보한다 1<br>2. 전투에서 승리한다 30<br>3. 이상기후구역을 조사한다 10<br>4. 기록을 회수한다 1<br>5. 정보수집장치를 사용한다 2')">
+<area shape="rect" coords="999, 15, 1066, 51" href="#" onmousemove="msgposit()" onmouseout="msghide()" onmouseover="msgset('144 / 북동항로 D / 침식 5','1. 에리어를 확보한다 1<br>2. 강화형 함대를 격파한다 10<br>3. 자원 포인트를 회수한다 75<br>4. 에너지 공급장치를 격납한다 2<br>5. 정보수집장치를 사용한다 2')">
+</map></p>
+</BODY>
+</HTML>
